@@ -1,0 +1,56 @@
+<aspectj>
+<aspects>
+<aspect name="com.guymoyo.ntc.domain.Entreprise_Roo_JavaBean"/>
+<aspect name="com.guymoyo.ntc.web.ArrondissementController_Roo_Controller"/>
+<aspect name="com.guymoyo.ntc.domain.SecteurActivite_Roo_JavaBean"/>
+<aspect name="com.guymoyo.ntc.web.ProjetController_Roo_Controller"/>
+<aspect name="com.guymoyo.ntc.domain.Departement_Roo_Entity"/>
+<aspect name="com.guymoyo.ntc.domain.Projet_Roo_JavaBean"/>
+<aspect name="com.guymoyo.ntc.web.DepartementController_Roo_Controller"/>
+<aspect name="com.guymoyo.ntc.domain.Departement_Roo_Configurable"/>
+<aspect name="com.guymoyo.ntc.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.guymoyo.ntc.domain.Departement_Roo_JavaBean"/>
+<aspect name="com.guymoyo.ntc.domain.SousSecteurActivite_Roo_JavaBean"/>
+<aspect name="com.guymoyo.ntc.domain.Region_Roo_ToString"/>
+<aspect name="com.guymoyo.ntc.domain.Pays_Roo_Configurable"/>
+<aspect name="com.guymoyo.ntc.domain.Projet_Roo_Configurable"/>
+<aspect name="com.guymoyo.ntc.domain.SecteurActivite_Roo_Configurable"/>
+<aspect name="com.guymoyo.ntc.web.EntrepriseController_Roo_Controller"/>
+<aspect name="com.guymoyo.ntc.domain.Site_Roo_JavaBean"/>
+<aspect name="com.guymoyo.ntc.domain.Pays_Roo_JavaBean"/>
+<aspect name="com.guymoyo.ntc.domain.Site_Roo_ToString"/>
+<aspect name="com.guymoyo.ntc.domain.Projet_Roo_ToString"/>
+<aspect name="com.guymoyo.ntc.domain.Entreprise_Roo_ToString"/>
+<aspect name="com.guymoyo.ntc.domain.Pays_Roo_ToString"/>
+<aspect name="com.guymoyo.ntc.domain.Arrondissement_Roo_Configurable"/>
+<aspect name="com.guymoyo.ntc.domain.SecteurActivite_Roo_Entity"/>
+<aspect name="com.guymoyo.ntc.domain.UserAccount_Roo_ToString"/>
+<aspect name="com.guymoyo.ntc.domain.Region_Roo_JavaBean"/>
+<aspect name="com.guymoyo.ntc.domain.Arrondissement_Roo_ToString"/>
+<aspect name="com.guymoyo.ntc.domain.Region_Roo_Configurable"/>
+<aspect name="com.guymoyo.ntc.domain.Site_Roo_Entity"/>
+<aspect name="com.guymoyo.ntc.domain.Entreprise_Roo_Configurable"/>
+<aspect name="com.guymoyo.ntc.domain.SousSecteurActivite_Roo_Configurable"/>
+<aspect name="com.guymoyo.ntc.domain.UserAccount_Roo_Configurable"/>
+<aspect name="com.guymoyo.ntc.domain.Arrondissement_Roo_JavaBean"/>
+<aspect name="com.guymoyo.ntc.web.SiteController_Roo_Controller"/>
+<aspect name="com.guymoyo.ntc.domain.UserAccount_Roo_Entity"/>
+<aspect name="com.guymoyo.ntc.web.SousSecteurActiviteController_Roo_Controller"/>
+<aspect name="com.guymoyo.ntc.web.SecteurActiviteController_Roo_Controller"/>
+<aspect name="com.guymoyo.ntc.web.RegionController_Roo_Controller"/>
+<aspect name="com.guymoyo.ntc.domain.Arrondissement_Roo_Entity"/>
+<aspect name="com.guymoyo.ntc.domain.Pays_Roo_Entity"/>
+<aspect name="com.guymoyo.ntc.domain.Entreprise_Roo_Entity"/>
+<aspect name="com.guymoyo.ntc.domain.Projet_Roo_Entity"/>
+<aspect name="com.guymoyo.ntc.domain.Region_Roo_Entity"/>
+<aspect name="com.guymoyo.ntc.domain.SecteurActivite_Roo_ToString"/>
+<aspect name="com.guymoyo.ntc.domain.UserAccount_Roo_JavaBean"/>
+<aspect name="com.guymoyo.ntc.domain.SousSecteurActivite_Roo_Entity"/>
+<aspect name="com.guymoyo.ntc.domain.Departement_Roo_ToString"/>
+<aspect name="com.guymoyo.ntc.domain.Site_Roo_Configurable"/>
+<aspect name="com.guymoyo.ntc.domain.SousSecteurActivite_Roo_ToString"/>
+<aspect name="com.guymoyo.ntc.web.PaysController_Roo_Controller"/>
+<aspect name="com.guymoyo.ntc.web.UserAccountController_Roo_Controller"/>
+</aspects>
+</aspectj>
+

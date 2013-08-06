@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_guymoyo_ntc_domain_UserAccount" items="${useraccounts}" z="GNYYUuO0ozkV+/ok+CORq4JkC54=">
+        <table:table data="${useraccounts}" id="l_com_guymoyo_ntc_domain_UserAccount" path="/useraccounts" z="iyfTmEvHWbUdIV3iBezGLIAyRSg=">
+            <table:column id="c_com_guymoyo_ntc_domain_UserAccount_identifier" property="identifier" z="lAm8TxifMzZPFwIrTlc7OQoMtnA="/>
+            <table:column id="c_com_guymoyo_ntc_domain_UserAccount_password" property="password" z="fE7qoX6UfCNV96yAOR4mIQBlCQs="/>
+            <table:column id="c_com_guymoyo_ntc_domain_UserAccount_nom" property="nom" z="1ecu2z0CrTD00GMB1OM1gqPvxuU="/>
+            <table:column id="c_com_guymoyo_ntc_domain_UserAccount_prenom" property="prenom" z="p6uXQfg3HBWAuUvontQCdlLf/Q4="/>
+            <table:column id="c_com_guymoyo_ntc_domain_UserAccount_roles" property="roles" z="Hab8664Le0M/ZDV5Jafi3YAypX0="/>
+            <table:column date="true" dateTimePattern="${userAccount_createdat_date_format}" id="c_com_guymoyo_ntc_domain_UserAccount_createdAt" property="createdAt" z="JT0IPNwm0U2RnyO0jayYVjYQyY4="/>
+        </table:table>
+    </page:list>
+</div>

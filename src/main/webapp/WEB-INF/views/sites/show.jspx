@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_guymoyo_ntc_domain_Site" object="${site}" path="/sites" z="I9ql2mPTM5X9XzujufXXNVTfQKQ=">
+        <field:display field="pays" id="s_com_guymoyo_ntc_domain_Site_pays" object="${site}" z="PcysYe8N/fKhXuhli6+e5KWPLlc="/>
+        <field:display field="region" id="s_com_guymoyo_ntc_domain_Site_region" object="${site}" z="jpFStacKLULc10+2BxscpznUtv0="/>
+        <field:display field="departement" id="s_com_guymoyo_ntc_domain_Site_departement" object="${site}" z="fVipPUZjvHvkHkntNNrNqZReWzc="/>
+        <field:display field="arrondissement" id="s_com_guymoyo_ntc_domain_Site_arrondissement" object="${site}" z="ERs99wEY7QQOVdHTjuDynOv/0YE="/>
+        <field:display field="localite" id="s_com_guymoyo_ntc_domain_Site_localite" object="${site}" z="G8O5Id2B/YRMZk9EkiZfejwDyx4="/>
+        <field:display field="envGeophysique" id="s_com_guymoyo_ntc_domain_Site_envGeophysique" object="${site}" z="LQQ1Yc7+N/svDbPOZDdmw2YM5ng="/>
+        <field:display date="true" dateTimePattern="${site_createdat_date_format}" field="createdAt" id="s_com_guymoyo_ntc_domain_Site_createdAt" object="${site}" z="AiOhP6n+hDmYNwIAYaSggkuB6s0="/>
+        <field:display field="createdBy" id="s_com_guymoyo_ntc_domain_Site_createdBy" object="${site}" z="S/IvQRMhAKDgRzEuwD0Z31rx1Fw="/>
+        <field:display field="envBiologique" id="s_com_guymoyo_ntc_domain_Site_envBiologique" object="${site}" z="IKQGObaJs/2Loqy15EUMmZicQag="/>
+        <field:display field="envSocioEconomiqueEtHumain" id="s_com_guymoyo_ntc_domain_Site_envSocioEconomiqueEtHumain" object="${site}" z="KrT40ZeJSeAjHC0HLbm/RsTWkU0="/>
+        <field:display field="sensibiliteMilieu" id="s_com_guymoyo_ntc_domain_Site_sensibiliteMilieu" object="${site}" z="LtNedF5NZcRhoveUP6ZMgKGUbjA="/>
+    </page:show>
+</div>

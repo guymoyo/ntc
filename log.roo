@@ -1,0 +1,87 @@
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2013-08-01 23:37:19
+project --topLevelPackage com.guymoyo.ntc --projectName ntcApp
+persistence setup --provider HIBERNATE --database H2_IN_MEMORY --userName sa --password sa
+enum type --class ~.domain.RoleName
+enum constant --name ROLE_SUPERADMIN
+enum constant --name ROLE_ADMIN
+enum constant --name ROLE_UTILISATEUR
+enum type --class ~.domain.TypeProjet
+enum constant --name MULTI_SITE
+enum constant --name MONO_SITE
+entity --class ~.domain.UserAccount
+field string --fieldName identifier --notNull --sizeMin 3 --unique 
+field string --fieldName password --sizeMin 5 --notNull
+field string --fieldName nom
+field string --fieldName prenom
+field enum --fieldName roles --type ~.domain.RoleName --notNull 
+field date --fieldName createdAt --type java.util.Date --dateTimeFormatPattern "dd-MM-yyyy hh:mm:ss" --persistenceType JPA_TIMESTAMP --notNull
+field reference --fieldName createdBy --type ~.domain.UserAccount --cardinality MANY_TO_ONE 
+field boolean --fieldName block
+dod
+entity --class ~.domain.SecteurActivite
+field string --fieldName nom --notNull
+field string --fieldName description
+entity --class ~.domain.SousSecteurActivite
+field string --fieldName nom --notNull
+field string --fieldName description
+field reference --fieldName secteurActivite --type ~.domain.SecteurActivite --cardinality MANY_TO_ONE 
+entity --class ~.domain.Pays
+field string --fieldName nom --notNull
+field string --fieldName description
+entity --class ~.domain.Region
+field string --fieldName nom --notNull
+field string --fieldName description
+field reference --fieldName pays --type ~.domain.Pays --cardinality MANY_TO_ONE 
+entity --class ~.domain.Departement
+field string --fieldName nom --notNull
+field string --fieldName description
+field reference --fieldName region --type ~.domain.Region --cardinality MANY_TO_ONE 
+entity --class ~.domain.Arrondissement
+field string --fieldName nom --notNull
+field string --fieldName description
+field reference --fieldName departement --type ~.domain.Departement --cardinality MANY_TO_ONE 
+entity --class ~.domain.Entreprise
+field string --fieldName raisonSociale --notNull
+field string --fieldName statutJuridique
+field string --fieldName adresse
+field string --fieldName telephone
+field reference --fieldName secteurActivite --type ~.domain.SecteurActivite --cardinality MANY_TO_ONE 
+field reference --fieldName sousSecteurActivite --type ~.domain.SousSecteurActivite --cardinality MANY_TO_ONE 
+field string --fieldName dateCreation --notNull
+field string --fieldName siegeSocial --notNull
+field string --fieldName capital 
+field string --fieldName directeurGeneral
+field string --fieldName nbreEmploye
+field reference --fieldName pays --type ~.domain.Pays --cardinality MANY_TO_ONE 
+field string --fieldName description --sizeMax 255
+field date --fieldName createdAt --type java.util.Date --dateTimeFormatPattern "dd-MM-yyyy hh:mm:ss" --persistenceType JPA_TIMESTAMP --notNull
+field reference --fieldName createdBy --type ~.domain.UserAccount --cardinality MANY_TO_ONE 
+entity --class ~.domain.Site
+field reference --fieldName pays --type ~.domain.Pays --cardinality MANY_TO_ONE 
+field reference --fieldName region --type ~.domain.Region --cardinality MANY_TO_ONE 
+field reference --fieldName departement --type ~.domain.Departement --cardinality MANY_TO_ONE 
+field reference --fieldName arrondissement --type ~.domain.Arrondissement --cardinality MANY_TO_ONE 
+field string --fieldName localite
+field string --fieldName envGeophysique --sizeMax 255
+field string --fieldName enBiologique --sizeMax 255
+field string --fieldName enSocioEconomiqueEtHumain --sizeMax 255
+field string --fieldName description --sizeMax 255
+field date --fieldName createdAt --type java.util.Date --dateTimeFormatPattern "dd-MM-yyyy hh:mm:ss" --persistenceType JPA_TIMESTAMP --notNull
+field reference --fieldName createdBy --type ~.domain.UserAccount --cardinality MANY_TO_ONE 
+dod
+entity --class ~.domain.Projet
+field reference --fieldName entreprise --type ~.domain.Entreprise --cardinality MANY_TO_ONE 
+field string --fieldName nom --notNull --unique
+field enum --fieldName typeProjet --type ~.domain.TypeProjet --notNull 
+field set --fieldName site --type ~.domain.Site  
+field date --fieldName dateDebut --type java.util.Date --dateTimeFormatPattern "dd-MM-yyyy hh:mm:ss" --persistenceType JPA_TIMESTAMP --notNull
+field date --fieldName dateFin --type java.util.Date --dateTimeFormatPattern "dd-MM-yyyy hh:mm:ss" --persistenceType JPA_TIMESTAMP --notNull
+field date --fieldName createdAt --type java.util.Date --dateTimeFormatPattern "dd-MM-yyyy hh:mm:ss" --persistenceType JPA_TIMESTAMP --notNull
+field reference --fieldName createdBy --type ~.domain.UserAccount --cardinality MANY_TO_ONE 
+dod
+web mvc setup
+web mvc all --package ~.web
+logging setup --level WARN
+// script --file ntcApp.roo
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2013-08-01 23:49:20
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2013-08-02 00:11:06

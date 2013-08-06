@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_guymoyo_ntc_domain_Entreprise" items="${entreprises}" z="wHYmerlGb3JGT0V1kwJoFD7wnFM=">
+        <table:table data="${entreprises}" id="l_com_guymoyo_ntc_domain_Entreprise" path="/entreprises" z="J7NS4EOXkghK9FGL3lleBHe89sk=">
+            <table:column id="c_com_guymoyo_ntc_domain_Entreprise_raisonSociale" property="raisonSociale" z="ddEnfxt2DNFiYA2abE+jPzaaSVs="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Entreprise_statutJuridique" property="statutJuridique" z="oyRME8gpZ9Qygz5C0qi1+dnQvsY="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Entreprise_adresse" property="adresse" z="xYXQLyfMrJEB2X5CDMoDL7TuMwg="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Entreprise_telephone" property="telephone" z="j0lcpFkNZts02sUW/xB+KwLIxNg="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Entreprise_secteurActivite" property="secteurActivite" z="5T6d6bTNUCQiWkbGviR2cvdRtxY="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Entreprise_sousSecteurActivite" property="sousSecteurActivite" z="ymsHDwcNtcoY64mr+8rEAUftgr4="/>
+        </table:table>
+    </page:list>
+</div>

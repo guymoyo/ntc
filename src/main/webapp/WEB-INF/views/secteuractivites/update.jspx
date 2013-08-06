@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_guymoyo_ntc_domain_SecteurActivite" modelAttribute="secteurActivite" path="/secteuractivites" versionField="Version" z="GDOtTLPAbe9nFSw/KQtWtCXQlVA=">
+        <field:input field="nom" id="c_com_guymoyo_ntc_domain_SecteurActivite_nom" required="true" z="2G0NF7SSqlLsYqmMJm69gMs2Fe8="/>
+        <field:input field="description" id="c_com_guymoyo_ntc_domain_SecteurActivite_description" z="LxNZFcJ3f6Roy/PdC8udSObE87w="/>
+    </form:update>
+</div>

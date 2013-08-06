@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_guymoyo_ntc_domain_Site" items="${sites}" z="8q9cHg4QrHEpzD7GtP7wu57/vyw=">
+        <table:table data="${sites}" id="l_com_guymoyo_ntc_domain_Site" path="/sites" z="dWgHkNY36zZnBIToh9kiY8MVEdY=">
+            <table:column id="c_com_guymoyo_ntc_domain_Site_pays" property="pays" z="Vjp7gHPpl3TggU6yp3aC5RL70VE="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Site_region" property="region" z="4l8AQJFtnXJQaueK2xDxklBcD5o="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Site_departement" property="departement" z="fAT4SiWNHnGMNsBjC3y17UHhtZY="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Site_arrondissement" property="arrondissement" z="dawyiz2tQ1mBn3Wa2Dq8UhjRAss="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Site_localite" property="localite" z="1UdQ8ud4bPs60kv5uYHioWNI6vM="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Site_envGeophysique" property="envGeophysique" z="4qHYdOl7pnAo9j/7mwKU/3+1dbY="/>
+        </table:table>
+    </page:list>
+</div>

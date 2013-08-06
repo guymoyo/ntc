@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_guymoyo_ntc_domain_Entreprise" modelAttribute="entreprise" path="/entreprises" versionField="Version" z="6aMWi6jKPZTVVlpftHM8epZ0EGg=">
+        <field:input field="raisonSociale" id="c_com_guymoyo_ntc_domain_Entreprise_raisonSociale" required="true" z="wQsSuovqC26n2zhS+922IGWrmE0="/>
+        <field:input field="statutJuridique" id="c_com_guymoyo_ntc_domain_Entreprise_statutJuridique" z="LzOYTQvC9FcCXU6hQk5BpjdDGN8="/>
+        <field:input field="adresse" id="c_com_guymoyo_ntc_domain_Entreprise_adresse" z="4JIHPjG3igKsUgEZrSz45FcMvVo="/>
+        <field:input field="telephone" id="c_com_guymoyo_ntc_domain_Entreprise_telephone" z="YdMP3SRyuUMtXHPdRc49i9WBWxA="/>
+        <field:select field="secteurActivite" id="c_com_guymoyo_ntc_domain_Entreprise_secteurActivite" itemValue="id" items="${secteuractivites}" path="/secteuractivites" z="RLYwJwGaRexxjvHLkriD4t0oCR4="/>
+        <field:select field="sousSecteurActivite" id="c_com_guymoyo_ntc_domain_Entreprise_sousSecteurActivite" itemValue="id" items="${soussecteuractivites}" path="/soussecteuractivites" z="qjpTHDWB5DMk5T1LZaKdRyO9NN8="/>
+        <field:input field="dateCreation" id="c_com_guymoyo_ntc_domain_Entreprise_dateCreation" required="true" z="TL2nydwacuxHIvQfznsaQWSCMGo="/>
+        <field:input field="siegeSocial" id="c_com_guymoyo_ntc_domain_Entreprise_siegeSocial" required="true" z="BW1IOfVmZkrVBM3k15IndszObG0="/>
+        <field:input field="capital" id="c_com_guymoyo_ntc_domain_Entreprise_capital" z="I43X0EoERibzUVl523uSnvcVdjM="/>
+        <field:input field="directeurGeneral" id="c_com_guymoyo_ntc_domain_Entreprise_directeurGeneral" z="VYtNvLsj3pSTgvAViCOicFneBWs="/>
+        <field:input field="nbreEmploye" id="c_com_guymoyo_ntc_domain_Entreprise_nbreEmploye" z="kKx+Kh0/UCK2m0Yc/3UJeiu/WU8="/>
+        <field:select field="pays" id="c_com_guymoyo_ntc_domain_Entreprise_pays" itemValue="id" items="${payses}" path="/payses" z="jt7BelB+qThFvJppRlDTT7Y3+J8="/>
+        <field:textarea field="description" id="c_com_guymoyo_ntc_domain_Entreprise_description" z="kFZ1H3XqYYPfRzffccB00djrODk="/>
+        <field:datetime dateTimePattern="${entreprise_createdat_date_format}" field="createdAt" id="c_com_guymoyo_ntc_domain_Entreprise_createdAt" required="true" z="zYjDsTLe2PF6yIx4csz40CnhkgU="/>
+        <field:select field="createdBy" id="c_com_guymoyo_ntc_domain_Entreprise_createdBy" itemValue="id" items="${useraccounts}" path="/useraccounts" z="YbQUk8NeJ8wO1P5vILh5fHNIHBA="/>
+    </form:update>
+</div>

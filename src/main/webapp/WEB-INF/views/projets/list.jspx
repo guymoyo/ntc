@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_guymoyo_ntc_domain_Projet" items="${projets}" z="P2L72A7WdeQKhOshzSnXpwnqOPs=">
+        <table:table data="${projets}" id="l_com_guymoyo_ntc_domain_Projet" path="/projets" z="HUdpc9jHqsJ7F0QctamtARn0H50=">
+            <table:column id="c_com_guymoyo_ntc_domain_Projet_entreprise" property="entreprise" z="qUMBlEDN0C6zVCZ4H6ufz09/Csk="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Projet_nom" property="nom" z="KxsBgBS1VOnvepctqqIzW7BO80M="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Projet_typeProjet" property="typeProjet" z="lelXCyjyrpYSaFOmJmeFISAavFg="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Projet_site" property="site" z="uRebYx/04xLhe9T5lgfJsN7/dpw="/>
+            <table:column date="true" dateTimePattern="${projet_datedebut_date_format}" id="c_com_guymoyo_ntc_domain_Projet_dateDebut" property="dateDebut" z="qZIIKKBJ4h7g4ziN2B6tl472z7c="/>
+            <table:column date="true" dateTimePattern="${projet_datefin_date_format}" id="c_com_guymoyo_ntc_domain_Projet_dateFin" property="dateFin" z="f8vRnJQggewYfoDgtQASemVXBX0="/>
+        </table:table>
+    </page:list>
+</div>

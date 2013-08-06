@@ -1,0 +1,11 @@
+<aspectj>
+<aspects>
+<aspect name="com.guymoyo.ntc.domain.UserAccountDataOnDemand_Roo_Configurable"/>
+<aspect name="com.guymoyo.ntc.domain.SiteDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.guymoyo.ntc.domain.ProjetDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.guymoyo.ntc.domain.ProjetDataOnDemand_Roo_Configurable"/>
+<aspect name="com.guymoyo.ntc.domain.UserAccountDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.guymoyo.ntc.domain.SiteDataOnDemand_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

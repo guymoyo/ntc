@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_guymoyo_ntc_domain_Projet" modelAttribute="projet" path="/projets" versionField="Version" z="R3J5LizV8kFq/Awfe0A0rfpIOLs=">
+        <field:select field="entreprise" id="c_com_guymoyo_ntc_domain_Projet_entreprise" itemValue="id" items="${entreprises}" path="/entreprises" z="GY62RAJgrr6QqxFhC5ZEhSo1OSE="/>
+        <field:input field="nom" id="c_com_guymoyo_ntc_domain_Projet_nom" required="true" z="bTD3U/JRBvvSQr/mYTb0cbMKYHI="/>
+        <field:select field="typeProjet" id="c_com_guymoyo_ntc_domain_Projet_typeProjet" items="${typeprojets}" path="typeprojets" required="true" z="FDRRH77ARTc8/OnGcggfASzMTJ8="/>
+        <field:select field="site" id="c_com_guymoyo_ntc_domain_Projet_site" itemValue="id" items="${sites}" multiple="true" path="/sites" z="D1u51l6Zl5lOP2xB1T+B/8nVqpM="/>
+        <field:datetime dateTimePattern="${projet_datedebut_date_format}" field="dateDebut" id="c_com_guymoyo_ntc_domain_Projet_dateDebut" required="true" z="pueGGahRO1WzpYV/xOAfgb/8ack="/>
+        <field:datetime dateTimePattern="${projet_datefin_date_format}" field="dateFin" id="c_com_guymoyo_ntc_domain_Projet_dateFin" required="true" z="qQXB3Um6fgE9rycQvyTSrbMm+bU="/>
+        <field:datetime dateTimePattern="${projet_createdat_date_format}" field="createdAt" id="c_com_guymoyo_ntc_domain_Projet_createdAt" required="true" z="PwdAab8r7f+2yI4DuSZ2NO9+j5o="/>
+        <field:select field="createdBy" id="c_com_guymoyo_ntc_domain_Projet_createdBy" itemValue="id" items="${useraccounts}" path="/useraccounts" z="QlBVlEhfjl6HLkof45Su5Gd5hiI="/>
+    </form:update>
+</div>

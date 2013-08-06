@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_guymoyo_ntc_domain_Entreprise" object="${entreprise}" path="/entreprises" z="ZHRGOF8t4fFGQQYXdfT2Jiyz3QA=">
+        <field:display field="raisonSociale" id="s_com_guymoyo_ntc_domain_Entreprise_raisonSociale" object="${entreprise}" z="1jVcpX2NinUrVEYD7kyvRX8PFWk="/>
+        <field:display field="statutJuridique" id="s_com_guymoyo_ntc_domain_Entreprise_statutJuridique" object="${entreprise}" z="sA3xMUepMGHWiSDJ+idEP5dW6ZY="/>
+        <field:display field="adresse" id="s_com_guymoyo_ntc_domain_Entreprise_adresse" object="${entreprise}" z="Py93j99YaqkyPiab5AUXqvfgw34="/>
+        <field:display field="telephone" id="s_com_guymoyo_ntc_domain_Entreprise_telephone" object="${entreprise}" z="PfenIAQvbQD+u5A9qMERZK9kjl0="/>
+        <field:display field="secteurActivite" id="s_com_guymoyo_ntc_domain_Entreprise_secteurActivite" object="${entreprise}" z="s3bDbIu7FpUYUP3ouHO6DyZfH/Y="/>
+        <field:display field="sousSecteurActivite" id="s_com_guymoyo_ntc_domain_Entreprise_sousSecteurActivite" object="${entreprise}" z="wm874O8F4KzPrQz33vaxAj7NBOk="/>
+        <field:display field="dateCreation" id="s_com_guymoyo_ntc_domain_Entreprise_dateCreation" object="${entreprise}" z="9LlSAkt4CxVrLlaENa5iFwX7sN4="/>
+        <field:display field="siegeSocial" id="s_com_guymoyo_ntc_domain_Entreprise_siegeSocial" object="${entreprise}" z="JwmLbcNb23wFuwqumQXgdENyNu8="/>
+        <field:display field="capital" id="s_com_guymoyo_ntc_domain_Entreprise_capital" object="${entreprise}" z="wpKWxTPPtOD8GtlAyO6gxAerHYA="/>
+        <field:display field="directeurGeneral" id="s_com_guymoyo_ntc_domain_Entreprise_directeurGeneral" object="${entreprise}" z="PokuWuVJhh5bXj6XHgid2o/ZlWQ="/>
+        <field:display field="nbreEmploye" id="s_com_guymoyo_ntc_domain_Entreprise_nbreEmploye" object="${entreprise}" z="yftjq94FsTExKUXWby4iFEg1Uy0="/>
+        <field:display field="pays" id="s_com_guymoyo_ntc_domain_Entreprise_pays" object="${entreprise}" z="cnPGHB5IqSAqRLf/qSpK4kugxFM="/>
+        <field:display field="description" id="s_com_guymoyo_ntc_domain_Entreprise_description" object="${entreprise}" z="2zFRFyDvQTywyXT5v7c7q5hmJRM="/>
+        <field:display date="true" dateTimePattern="${entreprise_createdat_date_format}" field="createdAt" id="s_com_guymoyo_ntc_domain_Entreprise_createdAt" object="${entreprise}" z="ZI9YoqNdeqNZT9USIMsX3NBBQ8c="/>
+        <field:display field="createdBy" id="s_com_guymoyo_ntc_domain_Entreprise_createdBy" object="${entreprise}" z="QNCxe/cDGExwQazZEywmqNaO9x4="/>
+    </page:show>
+</div>

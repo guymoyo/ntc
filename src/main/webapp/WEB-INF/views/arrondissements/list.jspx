@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_guymoyo_ntc_domain_Arrondissement" items="${arrondissements}" z="9lS9zefuu3y2UX8wvv9TvGaF5a4=">
+        <table:table data="${arrondissements}" id="l_com_guymoyo_ntc_domain_Arrondissement" path="/arrondissements" z="jVfdt3x+gljiA2vAX3/IM2SYmo0=">
+            <table:column id="c_com_guymoyo_ntc_domain_Arrondissement_nom" property="nom" z="gMhr1HyqNdLARQho9H8Av1gcvW4="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Arrondissement_description" property="description" z="Pz1FHRrR0pWx8rtXPS//AL2rYhQ="/>
+            <table:column id="c_com_guymoyo_ntc_domain_Arrondissement_departement" property="departement" z="vnd9sttFgaU8/2ul7A0LlkEBBSE="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_secteuractivite" z="+1yHu8yEuP7XBXpeGI4RWcG+Kfk=">
+            <menu:item id="i_secteuractivite_new" messageCode="global_menu_new" url="/secteuractivites?form" z="Alv57rLiDOC21NFzS02K5EisHUI="/>
+            <menu:item id="i_secteuractivite_list" messageCode="global_menu_list" url="/secteuractivites?page=1&amp;size=${empty param.size ? 10 : param.size}" z="/QUMZrwpAptQXzt2+IhLoEdTEE0="/>
+        </menu:category>
+        <menu:category id="c_soussecteuractivite" z="W+c3ffYCCEcx/Z0l2AgkTxrfoE8=">
+            <menu:item id="i_soussecteuractivite_new" messageCode="global_menu_new" url="/soussecteuractivites?form" z="21RMIxoubfsZ0UQXXcQxB07GiIA="/>
+            <menu:item id="i_soussecteuractivite_list" messageCode="global_menu_list" url="/soussecteuractivites?page=1&amp;size=${empty param.size ? 10 : param.size}" z="z9SLV4S5JwaigrRb7e3tGfJ0WTs="/>
+        </menu:category>
+        <menu:category id="c_pays" z="hmKT6JKMuQvLz2NsJdPEpNu5K2s=">
+            <menu:item id="i_pays_new" messageCode="global_menu_new" url="/payses?form" z="srv2wXH0/6yCGcy8zO3iARxDFKM="/>
+            <menu:item id="i_pays_list" messageCode="global_menu_list" url="/payses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="TXN/nwe2ldM/IuMIqfdBoLSXQKU="/>
+        </menu:category>
+        <menu:category id="c_useraccount" z="Yb8cyPB5AwOfYXCcrEpGXNT9C+k=">
+            <menu:item id="i_useraccount_new" messageCode="global_menu_new" url="/useraccounts?form" z="dm6iErpLQmgISoPCTS3yLiH8XFA="/>
+            <menu:item id="i_useraccount_list" messageCode="global_menu_list" url="/useraccounts?page=1&amp;size=${empty param.size ? 10 : param.size}" z="nijRCp2PPYuD2D3D7hljcdDK4vs="/>
+        </menu:category>
+        <menu:category id="c_entreprise" z="lvVgknI6BjE9bmgNUvQ2ytZUeUM=">
+            <menu:item id="i_entreprise_new" messageCode="global_menu_new" url="/entreprises?form" z="3Wxir9CKaRXX5dMEPz9WLCqCPY4="/>
+            <menu:item id="i_entreprise_list" messageCode="global_menu_list" url="/entreprises?page=1&amp;size=${empty param.size ? 10 : param.size}" z="iNC9FJn70DnwBkeHoFuaPzhbxYQ="/>
+        </menu:category>
+        <menu:category id="c_region" z="c6fLb1dSC6E3lOpc6tTzfRXdsVo=">
+            <menu:item id="i_region_new" messageCode="global_menu_new" url="/regions?form" z="zcyY7k/YcUshfD7FTv/o/904YhM="/>
+            <menu:item id="i_region_list" messageCode="global_menu_list" url="/regions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="R4yrjjgk2KXYIlMw++M9nLkYTpE="/>
+        </menu:category>
+        <menu:category id="c_departement" z="DcLFvaIYGME0GJcAZRQ/n+0HsE4=">
+            <menu:item id="i_departement_new" messageCode="global_menu_new" url="/departements?form" z="6hf5sTts3m0m5CEisK0XjCAMrCE="/>
+            <menu:item id="i_departement_list" messageCode="global_menu_list" url="/departements?page=1&amp;size=${empty param.size ? 10 : param.size}" z="DsK5MK9EBSIPdJsV/vdFKh8PUSE="/>
+        </menu:category>
+        <menu:category id="c_arrondissement" z="gUH8pUDRr5GCnsGmqM5GPp/Vsak=">
+            <menu:item id="i_arrondissement_new" messageCode="global_menu_new" url="/arrondissements?form" z="NrO55xvHZ+d73cg7Hkd7vHLdmVg="/>
+            <menu:item id="i_arrondissement_list" messageCode="global_menu_list" url="/arrondissements?page=1&amp;size=${empty param.size ? 10 : param.size}" z="V8IEp6StMzRE/K7pmamgpHebDEw="/>
+        </menu:category>
+        <menu:category id="c_site" z="5Z1+wiUVSVPmsN5fCUOfHNSOnaE=">
+            <menu:item id="i_site_new" messageCode="global_menu_new" url="/sites?form" z="ewAqg8Z+CTUpvmsxXaCRBnq6+TU="/>
+            <menu:item id="i_site_list" messageCode="global_menu_list" url="/sites?page=1&amp;size=${empty param.size ? 10 : param.size}" z="vhoCo6kXZ4paxcavA4SM71sw7EQ="/>
+        </menu:category>
+        <menu:category id="c_projet" z="oZrqi2UGj4Kr8NKwkyuUy/bKyRc=">
+            <menu:item id="i_projet_new" messageCode="global_menu_new" url="/projets?form" z="oCQ7A4tGYJYRH6lLZoTQUcp6tKc="/>
+            <menu:item id="i_projet_list" messageCode="global_menu_list" url="/projets?page=1&amp;size=${empty param.size ? 10 : param.size}" z="CXv23i1xYO0IySSgPhHO7sIpTj0="/>
+        </menu:category>
+    </menu:menu>
+</div>
